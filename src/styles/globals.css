@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth !important;
+}
+
+body {
+    background-color: #0a192f;
+}
+
+@font-face {
+    font-family: "headText";
+    src: url("../fonts/Calistoga-Regular.ttf");
+}
+@font-face {
+    font-family: "paraText";
+    src: url("../fonts/Comfortaa-VariableFont_wght.ttf");
+}
+
+#avidLearner:hover h1 {
+    transform: translateY(-50px) !important;
+}
+
+#avidLearner:hover {
+    background-color: #64ffda;
+}
+
+.particles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* Add any other styles for your particles */
+    z-index: -1;
+  }
